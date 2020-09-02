@@ -1,4 +1,4 @@
-# BlogPhoenix
+# BlogPhoenix1
 
 To start your Phoenix server:
 
