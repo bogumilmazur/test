@@ -7,6 +7,7 @@ defmodule BlogPhoenixWeb.HelloController do
 
   def show(conn, %{"messenger" => messenger}) do
     render(conn, "show.html", messenger: messenger)
+
   end
 
 end
