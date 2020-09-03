@@ -2,15 +2,10 @@ use Mix.Config
 
 # Configure your database
 config :blog_phoenix, BlogPhoenix.Repo,
-# username: "postgres",
-# password: "postgres",
-# database: "blog_phoenix_dev",
-# hostname: "localhost",
-  username: "pksxqvzcilvvqv",
-  password: "b72df59700063ea39fcf1faae041e6bb613d3995a616b54ae16a75929e360a23",
-  database: "dcn2fu4p9umnp6",
-  hostname: "ec2-54-228-209-117.eu-west-1.compute.amazonaws.com",
-  port: "5432",
+  username: "postgres",
+  password: "postgres",
+  database: "blog_phoenix_dev",
+  hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
 
